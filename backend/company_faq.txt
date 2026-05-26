@@ -1,0 +1,60 @@
+COMPANY FAQ KNOWLEDGE BASE
+
+Q: What are office hours?
+A: Office hours are Monday to Friday, 9 AM to 6 PM.
+
+
+Q: How do I reset my password?
+A: Go to login page, click Forgot Password, enter your email, check inbox for reset link.
+
+
+Q: How do I apply for leave?
+A: Login to HR portal, go to Leave section, select dates, submit for manager approval.
+
+
+Q: What is the WiFi password?
+A: Corporate WiFi name is CorpNet. Contact IT helpdesk for password at helpdesk@company.com.
+
+
+Q: How do I contact HR?
+A: Email hr@company.com or call extension 1001 during office hours.
+
+
+Q: What is the work from home policy?
+A: Employees can work from home 2 days per week with manager approval.
+
+
+Q: How do I submit an expense report?
+A: Login to finance portal, click Expenses, fill the form, attach receipts, submit for approval.
+
+
+Q: What is the dress code?
+A: Business casual Monday to Thursday. Casual Friday allowed.
+
+
+Q: How do I book a meeting room?
+A: Use the Room Booking app on intranet or email admin@company.com with date and time.
+
+
+Q: Who do I contact for IT issues?
+A: Contact IT helpdesk at helpdesk@company.com or extension 1234, available 8 AM to 8 PM.
+
+
+Q: What is the annual leave entitlement?
+A: Full-time employees get 20 days annual leave per year plus public holidays.
+
+
+Q: How do I access the company VPN?
+A: Download Cisco AnyConnect from IT portal, enter vpn.company.com, use your company credentials.
+
+
+Q: What health benefits are available?
+A: Company provides medical, dental and vision insurance. Contact HR for full details.
+
+
+Q: How do I update my personal information?
+A: Login to HR portal, go to My Profile, click Edit, update your information and save.
+
+
+Q: What is the notice period for resignation?
+A: Standard notice period is 30 days. Senior roles may require 60 days.
