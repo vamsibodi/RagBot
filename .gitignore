@@ -1,22 +1,9 @@
-﻿# Node.js
-node_modules/
-dist/
-build/
-
-# Python
+﻿node_modules/
 .venv/
+antenv/
+frontend/node_modules/
 __pycache__/
 *.pyc
-
-# Environment variables
 .env
-
-# VS Code
-.vscode/
-
-# Logs
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
+dist/
+build/
