@@ -13,3 +13,5 @@ pytest-cov
 httpx
 pytest-mock
 langchain-community
+sentence-transformers
+langchain-huggingface
