@@ -14,27 +14,28 @@ jobs:
       contents: read
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Create virtual environment
+      - name: Create virtual environment and install dependencies
         run: |
           python -m venv antenv
           source antenv/bin/activate
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r backend/requirements.txt
 
-      - name: Upload artifact
+      - name: Upload artifact for deployment
         uses: actions/upload-artifact@v4
         with:
           name: python-app
           path: |
-            .
-            !antenv/
+            backend/
+            !backend/antenv/
 
   deploy:
     runs-on: ubuntu-latest
@@ -45,12 +46,12 @@ jobs:
       contents: read
 
     steps:
-      - name: Download artifact
+      - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
           name: python-app
 
-      - name: Azure Login
+      - name: Login to Azure
         uses: azure/login@v2
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_1AF9156681814B8DBD0759FE779173EF }}
@@ -59,6 +60,7 @@ jobs:
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
+        id: deploy-to-webapp
         with:
           app-name: 'RagBot'
           slot-name: 'Production'
