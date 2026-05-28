@@ -12,9 +12,3 @@ pytest-asyncio
 pytest-cov
 httpx
 pytest-mock
-pytest-cov
-pytest-asyncio
-pytest-mock
-pytest-cov
-pytest-asyncio
-pytest-mock
