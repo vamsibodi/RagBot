@@ -21,7 +21,7 @@ transformers
 torch
 huggingface-hub
 
-faiss-cpu
+faiss-cpu==1.8.0
 
 pydantic
 numpy
