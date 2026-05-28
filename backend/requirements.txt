@@ -12,3 +12,4 @@ pytest-asyncio
 pytest-cov
 httpx
 pytest-mock
+langchain-community
